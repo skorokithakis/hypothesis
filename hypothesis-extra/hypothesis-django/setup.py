@@ -38,7 +38,7 @@ README = local_file("README.rst")
 
 setup(
     name='hypothesis-django',
-    version='0.6.0',
+    version='0.7.0',
     author='David R. MacIver',
     author_email='david@drmaciver.com',
     packages=find_packages(SOURCE),
@@ -47,8 +47,8 @@ setup(
     license='MPL v2',
     description='Adds support for Django testing to Hypothesis',
     install_requires=[
-        "hypothesis>=1.6.0,<1.6.99",
-        "hypothesis-datetime>=1.6.0,<1.6.99",
+        "hypothesis>=1.7.0,<1.7.99",
+        "hypothesis-datetime>=1.7.0,<1.7.99",
         "hypothesis-fakefactory>=0.10.0,<0.10.99",
         "django>=1.7",
     ],
